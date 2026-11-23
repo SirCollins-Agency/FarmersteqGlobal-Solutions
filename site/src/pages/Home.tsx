@@ -21,7 +21,7 @@ export function HomePage() {
             </h1>
             <p className="hero-lead">{SLOGAN}</p>
             <p className="hero-body">
-              Farmsteq turns the observations you already make — a crop, a stage, a change in the leaves —
+              Farmerssteq turns the observations you already make — a crop, a stage, a change in the leaves —
               into a beautiful offline notebook and one practical focus for today.
             </p>
 

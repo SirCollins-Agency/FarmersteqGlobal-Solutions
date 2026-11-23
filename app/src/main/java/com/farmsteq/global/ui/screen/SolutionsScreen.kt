@@ -46,7 +46,7 @@ import com.farmsteq.global.ui.components.SectionHeading
 import com.farmsteq.global.util.formatNaira
 
 /**
- * The Solutions module: a structured, honest catalogue of Farmsteq capabilities,
+ * The Solutions module: a structured, honest catalogue of Farmerssteq capabilities,
  * with the bundled market-signal board as one track rather than a standalone tab.
  */
 @Composable
@@ -64,14 +64,14 @@ fun SolutionsScreen(
             Text("Solutions", style = MaterialTheme.typography.displaySmall)
             Spacer(Modifier.height(6.dp))
             Text(
-                "Everything Farmsteq can do for your farm — clearly structured, honestly labelled.",
+                "Everything Farmerssteq can do for your farm — clearly structured, honestly labelled.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             Spacer(Modifier.height(10.dp))
         }
 
-        item { SectionHeading("The Farmsteq toolkit") }
+        item { SectionHeading("The Farmerssteq toolkit") }
 
         items(solutionTracks, key = { it.id }) { track ->
             SolutionTrackCard(

@@ -1,4 +1,4 @@
-# CONTEXT.md — Farmsteq Global
+# CONTEXT.md — Farmerssteq Global
 
 *The durable context every future agent, engineer and reviewer reads first. If a decision conflicts with this file, fix the decision or amend this file deliberately.*
 
@@ -6,10 +6,10 @@
 
 | Field | Value |
 | --- | --- |
-| Product | Farmsteq Global |
+| Product | Farmerssteq Global |
 | Slogan | Empowering Agricultural, Growing Business, Building Sustainable Future. |
 | Proposer | Sir Collins Tech-Agency |
-| Client | Hon. Sanda Nathan — CEO, Farmsteq Global |
+| Client | Hon. Sanda Nathan — CEO, Farmerssteq Global |
 | Origin Agent | **Native Android app** (explicitly not a PWA) |
 | Release target | v0.0.1 — "Average Lovable Product" (ALP) |
 | GitHub owner/repo | `SirCollins-Agency` / `FarmersteqGlobal-Solutions` |

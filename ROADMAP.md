@@ -1,4 +1,4 @@
-# ROADMAP.md — Strategic SDLC for Farmsteq Global
+# ROADMAP.md — Strategic SDLC for Farmerssteq Global
 
 Delivery philosophy: **thin, lovable slices; proof before scale; seams before features.**
 

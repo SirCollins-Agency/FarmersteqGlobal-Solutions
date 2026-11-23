@@ -5,7 +5,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="wrap header-inner">
-        <Link to="/" className="brand" aria-label="Farmsteq Global home">
+        <Link to="/" className="brand" aria-label="Farmerssteq Global home">
           <span className="brand-mark"><SproutIcon width={22} height={22} /></span>
           <span className="brand-text">
             <strong>farmsteq</strong>

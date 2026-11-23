@@ -1,4 +1,4 @@
-# SPECS.md — Farmsteq Global
+# SPECS.md — Farmerssteq Global
 
 Implementation contract: skills, stack, features, workflows and quality gates. Version targeted: **0.0.1**.
 

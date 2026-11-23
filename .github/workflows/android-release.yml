@@ -63,9 +63,9 @@ jobs:
         run: |
           VERSION="${{ github.ref_name }}"
           [ -n "${{ inputs.tag }}" ] && VERSION="${{ inputs.tag }}"
-          NOTES="Farmsteq Global ${VERSION} — native Android Average Lovable Product (debug-signed trial build)."
+          NOTES="Farmerssteq Global ${VERSION} — native Android Average Lovable Product (debug-signed trial build)."
           if gh release view "$VERSION" >/dev/null 2>&1; then
             gh release upload "$VERSION" "farmsteq-global-${VERSION}.apk" "farmsteq-global-${VERSION}.apk.sha256" --clobber
           else
-            gh release create "$VERSION" "farmsteq-global-${VERSION}.apk" "farmsteq-global-${VERSION}.apk.sha256" --title "Farmsteq Global ${VERSION}" --notes "$NOTES"
+            gh release create "$VERSION" "farmsteq-global-${VERSION}.apk" "farmsteq-global-${VERSION}.apk.sha256" --title "Farmerssteq Global ${VERSION}" --notes "$NOTES"
           fi

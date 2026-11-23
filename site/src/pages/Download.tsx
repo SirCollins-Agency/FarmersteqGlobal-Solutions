@@ -13,7 +13,7 @@ export function DownloadPage() {
 
         <div className="download-hero">
           <span className="section-kicker">ANDROID · NATIVE APP</span>
-          <h1>Download Farmsteq Global</h1>
+          <h1>Download Farmerssteq Global</h1>
           <p>
             Version {release.version} · {release.sizeLabel} · native APK
             {release.isLive ? ' · live from GitHub Releases' : ' · fallback link shown while checking releases'}
@@ -40,7 +40,7 @@ export function DownloadPage() {
             <ol>
               <li><span><CheckIcon width={16} height={16} /></span> Open the downloaded APK on your Android phone.</li>
               <li><span><CheckIcon width={16} height={16} /></span> Allow “Install unknown apps” for your browser or file manager when asked.</li>
-              <li><span><CheckIcon width={16} height={16} /></span> Tap Install, open Farmsteq, and log your first field observation.</li>
+              <li><span><CheckIcon width={16} height={16} /></span> Tap Install, open Farmerssteq, and log your first field observation.</li>
             </ol>
 
             <div className="notice">

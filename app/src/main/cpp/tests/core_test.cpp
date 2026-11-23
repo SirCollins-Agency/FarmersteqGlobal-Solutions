@@ -21,6 +21,6 @@ int main() {
     assert(!advice.empty());
     assert(advice.front() != ' ');
 
-    std::cout << "Farmsteq C++ core: all deterministic checks passed\n";
+    std::cout << "Farmerssteq C++ core: all deterministic checks passed\n";
     return 0;
 }

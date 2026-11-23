@@ -1,7 +1,7 @@
 package com.farmsteq.global.data
 
 /**
- * The Solutions pillar: a structured catalogue of what Farmsteq delivers.
+ * The Solutions pillar: a structured catalogue of what Farmerssteq delivers.
  * Each track has an honest maturity label so the product never overpromises.
  */
 enum class SolutionStatus(val label: String) {

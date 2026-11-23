@@ -1,4 +1,4 @@
-# ARCHITECTURE.md — Farmsteq Global
+# ARCHITECTURE.md — Farmerssteq Global
 
 ## 1. System shape
 

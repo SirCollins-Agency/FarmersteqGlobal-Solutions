@@ -49,7 +49,7 @@ private val pages = listOf(
     Page(
         Icons.Filled.Eco,
         "Farming, made clearer",
-        "Farmsteq turns what you already do — walking the field, noticing changes — into a simple, useful record.",
+        "Farmerssteq turns what you already do — walking the field, noticing changes — into a simple, useful record.",
     ),
     Page(
         Icons.Filled.EditNote,

@@ -38,7 +38,7 @@ export function SiteFooter() {
       </div>
 
       <div className="wrap footer-bottom">
-        <span>© 2026 Farmsteq Global · v0.0.1</span>
+        <span>© 2026 Farmerssteq Global · v0.0.1</span>
         <span>Built native for Android · Ready for tomorrow’s devices</span>
       </div>
     </footer>

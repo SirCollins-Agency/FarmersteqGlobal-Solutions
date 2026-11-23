@@ -1,4 +1,4 @@
-# SECURITY.md — Farmsteq Global
+# SECURITY.md — Farmerssteq Global
 
 ## 1. Credential hygiene (read this first)
 

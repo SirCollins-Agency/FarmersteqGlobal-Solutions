@@ -100,7 +100,7 @@ fun SettingsScreen(state: UiState, viewModel: MainViewModel) {
         }
 
         Spacer(Modifier.height(16.dp))
-        SettingCard(title = "About Farmsteq Global") {
+        SettingCard(title = "About Farmerssteq Global") {
             Text(
                 "Empowering Agricultural, Growing Business, Building Sustainable Future.",
                 style = MaterialTheme.typography.bodyLarge,
@@ -135,7 +135,7 @@ fun SettingsScreen(state: UiState, viewModel: MainViewModel) {
             ) {
                 Icon(Icons.Filled.Share, contentDescription = null)
                 Spacer(Modifier.size(12.dp))
-                Text("Farmsteq on Facebook", style = MaterialTheme.typography.bodyLarge)
+                Text("Farmerssteq on Facebook", style = MaterialTheme.typography.bodyLarge)
             }
             Spacer(Modifier.height(12.dp))
             Text("Proposed by Sir Collins Tech-Agency · Client: Hon. Sanda Nathan", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)

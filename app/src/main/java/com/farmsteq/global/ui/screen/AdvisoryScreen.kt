@@ -92,7 +92,7 @@ fun AdvisoryScreen(state: UiState, viewModel: MainViewModel) {
                 }
                 Spacer(Modifier.height(10.dp))
                 Text(
-                    "Estimates only · computed on-device by the Farmsteq core",
+                    "Estimates only · computed on-device by the Farmerssteq core",
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onPrimaryContainer,
                 )

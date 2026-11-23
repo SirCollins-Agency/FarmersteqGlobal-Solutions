@@ -48,7 +48,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun FarmsteqTheme(
+fun FarmerssteqTheme(
     theme: String = "system",
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit,

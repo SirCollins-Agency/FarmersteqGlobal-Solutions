@@ -55,7 +55,7 @@ fun AppNavigation(state: UiState, viewModel: MainViewModel) {
         exportJson?.let { json ->
             val intent = Intent(Intent.ACTION_SEND).apply {
                 type = "application/json"
-                putExtra(Intent.EXTRA_SUBJECT, "Farmsteq field notes")
+                putExtra(Intent.EXTRA_SUBJECT, "Farmerssteq field notes")
                 putExtra(Intent.EXTRA_TEXT, json)
             }
             runCatching { context.startActivity(Intent.createChooser(intent, "Export field notes")) }

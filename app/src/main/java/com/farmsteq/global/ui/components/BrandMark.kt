@@ -52,7 +52,7 @@ fun BrandMark(
             Spacer(Modifier.width(12.dp))
             Column(verticalArrangement = Arrangement.Center) {
                 Text(
-                    text = "Farmsteq",
+                    text = "Farmerssteq",
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface,

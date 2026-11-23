@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.FarmsteqGlobal" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.FarmerssteqGlobal" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/surface_seed</item>
         <item name="android:statusBarColor">@color/surface_seed</item>
         <item name="android:navigationBarColor">@color/surface_seed</item>

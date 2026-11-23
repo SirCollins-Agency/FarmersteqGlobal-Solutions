@@ -7,7 +7,7 @@ import androidx.compose.runtime.getValue
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.farmsteq.global.ui.AppNavigation
-import com.farmsteq.global.ui.theme.FarmsteqTheme
+import com.farmsteq.global.ui.theme.FarmerssteqTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
         setContent {
             val state by viewModel.state.collectAsStateWithLifecycle()
-            FarmsteqTheme(theme = state.theme, dynamicColor = state.dynamicColor) {
+            FarmerssteqTheme(theme = state.theme, dynamicColor = state.dynamicColor) {
                 AppNavigation(state = state, viewModel = viewModel)
             }
         }

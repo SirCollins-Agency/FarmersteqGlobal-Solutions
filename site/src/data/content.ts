@@ -71,7 +71,7 @@ export const steps = [
   {
     n: '01',
     title: 'Walk your field',
-    body: 'Notice what is changing. Farmsteq asks for just a crop, a stage and how it looks.',
+    body: 'Notice what is changing. Farmerssteq asks for just a crop, a stage and how it looks.',
   },
   {
     n: '02',

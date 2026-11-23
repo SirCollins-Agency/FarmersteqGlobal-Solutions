@@ -1,8 +1,8 @@
-# Farmsteq Global — v0.0.1 (Average Lovable Product)
+# Farmerssteq Global — v0.0.1 (Average Lovable Product)
 
 > **Empowering Agricultural, Growing Business, Building Sustainable Future.**
 
-Farmsteq Global is a mobile-first agricultural companion that turns a farmer's everyday observations into useful, context-aware decisions — offline, on a humble phone, in the language of the field.
+Farmerssteq Global is a mobile-first agricultural companion that turns a farmer's everyday observations into useful, context-aware decisions — offline, on a humble phone, in the language of the field.
 
 This repository is the single source of truth for:
 
@@ -68,6 +68,6 @@ The public download page is served from [`farmersteq.cculture.net`](https://farm
 
 ## Credits
 
-Proposed by **Sir Collins Tech-Agency**. Client: **Hon. Sanda Nathan — CEO, Farmsteq Global**.
+Proposed by **Sir Collins Tech-Agency**. Client: **Hon. Sanda Nathan — CEO, Farmerssteq Global**.
 
 Contact: [nathansandajnr@gmail.com](mailto:nathansandajnr@gmail.com) · [Facebook](https://www.facebook.com/share/1CqqtKZKo9/)
