@@ -1,6 +1,6 @@
 # Farmerssteq Global — v0.0.1 (Average Lovable Product)
 
-> **Empowering Agricultural, Growing Business, Building Sustainable Future.**
+> **Empowering Agriculture, Growing Businesses, Building Sustainable Futures**
 
 Farmerssteq Global is a mobile-first agricultural companion that turns a farmer's everyday observations into useful, context-aware decisions — offline, on a humble phone, in the language of the field.
 

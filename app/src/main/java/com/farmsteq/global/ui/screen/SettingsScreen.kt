@@ -102,7 +102,7 @@ fun SettingsScreen(state: UiState, viewModel: MainViewModel) {
         Spacer(Modifier.height(16.dp))
         SettingCard(title = "About Farmerssteq Global") {
             Text(
-                "Empowering Agricultural, Growing Business, Building Sustainable Future.",
+                "Empowering Agriculture, Growing Businesses, Building Sustainable Futures",
                 style = MaterialTheme.typography.bodyLarge,
             )
             Spacer(Modifier.height(12.dp))

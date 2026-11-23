@@ -1,5 +1,5 @@
 export const SLOGAN =
-  'Empowering Agricultural, Growing Business, Building Sustainable Future.'
+  'Empowering Agriculture, Growing Businesses, Building Sustainable Futures'
 
 export const REPO = 'SirCollins-Agency/FarmersteqGlobal-Solutions'
 export const FALLBACK_VERSION = 'v0.0.1'

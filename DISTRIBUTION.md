@@ -16,9 +16,9 @@
 ## Release details
 
 - **Tag:** `v0.0.1`
-- **Asset:** `farmerssteq-global-v0.0.1.apk` (20,541,967 bytes)
+- **Asset:** `farmerssteq-global-v0.0.1.apk` (21,044,903 bytes)
 - **Build:** debug-signed trial APK, `minSdk 26`, `targetSdk 36`
-- **SHA-256:** `f9af76ee4d451fde730b15f01d59acc91224373bd794ff0a40c7c21020997e87`
+- **SHA-256:** `d8e841eb40add5156286c8f91be49f280e852780a0804419d48986826b4d4e0a`
 - **Release page:** https://github.com/SirCollins-Agency/FarmersteqGlobal-Solutions/releases/tag/v0.0.1
 
 ## Verify a download

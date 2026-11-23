@@ -7,7 +7,7 @@
 | Field | Value |
 | --- | --- |
 | Product | Farmerssteq Global |
-| Slogan | Empowering Agricultural, Growing Business, Building Sustainable Future. |
+| Slogan | Empowering Agriculture, Growing Businesses, Building Sustainable Futures |
 | Proposer | Sir Collins Tech-Agency |
 | Client | Hon. Sanda Nathan — CEO, Farmerssteq Global |
 | Origin Agent | **Native Android app** (explicitly not a PWA) |
