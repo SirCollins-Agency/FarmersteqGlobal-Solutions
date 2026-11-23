@@ -31,7 +31,7 @@ export function DownloadPage() {
               <DownloadIcon width={18} height={18} /> Download APK
             </a>
             <p className="fineprint">
-              Direct link: <a href={release.downloadUrl}>farmsteq-global-{release.version}.apk</a>
+              Direct link: <a href={release.downloadUrl}>farmerssteq-global-{release.version}.apk</a>
             </p>
           </div>
 

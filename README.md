@@ -46,7 +46,7 @@ See [`SPECS.md`](SPECS.md#commands) for the full command matrix and [`ROADMAP.md
 
 ## Download
 
-The v0.0.1 APK is attached to the [GitHub Release](https://github.com/SirCollins-Agency/FarmersteqGlobal-Solutions/releases/latest) as `farmsteq-global-v0.0.1.apk`.
+The v0.0.1 APK is attached to the [GitHub Release](https://github.com/SirCollins-Agency/FarmersteqGlobal-Solutions/releases/latest) as `farmerssteq-global-v0.0.1.apk`.
 The public download page is served from [`farmersteq.cculture.net`](https://farmersteq.cculture.net) (Cloudflare Pages project `farmersteq-pages`).
 
 ## Core experience in v0.0.1

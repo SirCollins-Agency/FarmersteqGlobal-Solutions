@@ -25,7 +25,7 @@ platform :android do
 
     gradle(task: "assembleDebug", properties: { "skipNative" => "true" })
     apk = "app/build/outputs/apk/debug/app-debug.apk"
-    artifact = "farmsteq-global-#{tag}.apk"
+    artifact = "farmerssteq-global-#{tag}.apk"
     FileUtils.cp(apk, artifact)
     sh "sha256sum #{artifact} > #{artifact}.sha256"
 

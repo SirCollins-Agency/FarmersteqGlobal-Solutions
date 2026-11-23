@@ -87,7 +87,7 @@ Versions are pinned in `gradle/libs.versions.toml` and `site/package.json`. Upgr
 ### 6.2 Release workflow (v0.0.1)
 
 1. Tag `v0.0.1` on `main`.
-2. `android-release.yml` builds the APK, renames it `farmsteq-global-v0.0.1.apk`, computes SHA-256, creates/updates the GitHub Release and uploads both files.
+2. `android-release.yml` builds the APK, renames it `farmerssteq-global-v0.0.1.apk`, computes SHA-256, creates/updates the GitHub Release and uploads both files.
 3. `pages-deploy.yml` builds `site/` and deploys to Cloudflare Pages project `farmersteq-pages` on `main`.
 4. Bind `farmersteq.cculture.net` in Cloudflare (DNS/hostnames) and verify HTTPS.
 5. Smoke test: download APK from the site, install on a device, complete the core flow.
