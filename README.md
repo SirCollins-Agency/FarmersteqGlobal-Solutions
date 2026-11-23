@@ -1,1 +1,1 @@
-# FarmersteqGlobal-App
+# FarmersteqGlobal-Solutions
