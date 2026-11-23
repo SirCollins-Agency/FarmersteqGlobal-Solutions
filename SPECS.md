@@ -42,7 +42,7 @@ Implementation contract: skills, stack, features, workflows and quality gates. V
 | Domain core | C++17 via CMake/NDK 27 | Deterministic, testable, reusable beyond Android; no JNI in UI layer. |
 | Local data | kotlinx.serialization JSON + atomic `filesDir` write | Zero annotation processors, tiny, transparent, replaceable by Room/SQLite later. |
 | Web/presentation | Vite + TypeScript + React + **TanStack Router + TanStack Query** + `qrcode.react` | Type-safe routing and server-state discipline even on a static site; natural home for a future download/API manifest. |
-| Hosting | Cloudflare Pages project `farmersteq-pages` | Fast global static delivery, preview deployments, custom domain `farmersteq.cculture.net`. |
+| Hosting | Cloudflare Pages project `farmersteq-pages` | Fast global static delivery, preview deployments, custom domain `farmerssteq.cculture.net`. |
 | Mobile CI/CD | **Fastlane** + GitHub Actions | One command locally and in CI for build/sign/release; `set_github_release` uploads artifacts. |
 | Quality | Gradle unit tests + CTest + TypeScript `tsc --noEmit` + CI | Deterministic gates, no flaky device matrix in v0.0.1. |
 
@@ -89,7 +89,7 @@ Versions are pinned in `gradle/libs.versions.toml` and `site/package.json`. Upgr
 1. Tag `v0.0.1` on `main`.
 2. `android-release.yml` builds the APK, renames it `farmerssteq-global-v0.0.1.apk`, computes SHA-256, creates/updates the GitHub Release and uploads both files.
 3. `pages-deploy.yml` builds `site/` and deploys to Cloudflare Pages project `farmersteq-pages` on `main`.
-4. Bind `farmersteq.cculture.net` in Cloudflare (DNS/hostnames) and verify HTTPS.
+4. Bind `farmerssteq.cculture.net` in Cloudflare (DNS/hostnames) and verify HTTPS.
 5. Smoke test: download APK from the site, install on a device, complete the core flow.
 
 ### 6.3 Fastlane parity

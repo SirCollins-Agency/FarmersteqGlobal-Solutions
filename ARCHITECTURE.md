@@ -17,7 +17,7 @@ flowchart LR
   end
 
   subgraph Web["Presentation plane"]
-    SITE["Vite + React + TanStack<br/>farmersteq.cculture.net"]
+    SITE["Vite + React + TanStack<br/>farmerssteq.cculture.net"]
     REL[("GitHub Release<br/>versioned APK + SHA-256")]
     CF["Cloudflare Pages<br/>farmersteq-pages"]
     SITE --> CF

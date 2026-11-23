@@ -14,7 +14,7 @@
 | Release target | v0.0.1 — "Average Lovable Product" (ALP) |
 | GitHub owner/repo | `SirCollins-Agency` / `FarmersteqGlobal-Solutions` |
 | Cloudflare Pages project | `farmersteq-pages` |
-| Public host | `farmersteq.cculture.net` |
+| Public host | `farmerssteq.cculture.net` |
 | Contact | nathansandajnr@gmail.com · https://www.facebook.com/share/1CqqtKZKo9/ |
 
 ## 2. What "Average Lovable Product" means here

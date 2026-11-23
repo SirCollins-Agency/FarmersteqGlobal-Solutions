@@ -8,7 +8,7 @@
 | Direct APK | https://github.com/SirCollins-Agency/FarmersteqGlobal-Solutions/releases/latest/download/farmerssteq-global-v0.0.1.apk | **Live** (HTTP 200) |
 | SHA-256 checksum | `farmerssteq-global-v0.0.1.apk.sha256` on the release | **Live** |
 | Presentation/download site | Cloudflare Pages project `farmersteq-pages` | Pending deploy |
-| Public hostname | `farmersteq.cculture.net` | Pending binding |
+| Public hostname | `farmerssteq.cculture.net` | Pending binding |
 | QR + install guide | `/download` on the Pages site | Ready in `site/dist` |
 | CI auto-release on `v*` tag | `.github/workflows/android-release.yml` | Ready |
 | Fastlane manual release | `fastlane android release tag:v0.0.1` | Ready |

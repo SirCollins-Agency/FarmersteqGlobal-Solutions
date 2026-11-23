@@ -9,7 +9,7 @@ This repository is the single source of truth for:
 | Surface | Technology | Output |
 | --- | --- | --- |
 | **Origin Agent** (native Android app) | Kotlin + Jetpack Compose + Material 3 Expressive + C++17/NDK | installable `.apk` |
-| **Presentation & download site** | Vite + React + TanStack Router/Query, Cloudflare Pages | `farmersteq.cculture.net` |
+| **Presentation & download site** | Vite + React + TanStack Router/Query, Cloudflare Pages | `farmerssteq.cculture.net` |
 | **Release automation** | Fastlane + GitHub Actions | GitHub Release artifacts |
 | **SDLC governance** | `CONTEXT.md`, `SPECS.md`, `ARCHITECTURE.md`, `ROADMAP.md` | repeatable delivery |
 
@@ -47,7 +47,7 @@ See [`SPECS.md`](SPECS.md#commands) for the full command matrix and [`ROADMAP.md
 ## Download
 
 The v0.0.1 APK is attached to the [GitHub Release](https://github.com/SirCollins-Agency/FarmersteqGlobal-Solutions/releases/latest) as `farmerssteq-global-v0.0.1.apk`.
-The public download page is served from [`farmersteq.cculture.net`](https://farmersteq.cculture.net) (Cloudflare Pages project `farmersteq-pages`).
+The public download page is served from [`farmerssteq.cculture.net`](https://farmerssteq.cculture.net) (Cloudflare Pages project `farmersteq-pages`).
 
 ## Core experience in v0.0.1
 
