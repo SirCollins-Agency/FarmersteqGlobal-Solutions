@@ -1,0 +1,6 @@
+name = "farmersteq-pages"
+pages_build_output_dir = "site/dist"
+compatibility_date = "2026-11-23"
+
+# Deploy with: npx wrangler pages deploy site/dist --project-name farmersteq-pages
+# Custom domain: farmersteq.cculture.net (bind in Cloudflare Dashboard → Pages → Custom domains)

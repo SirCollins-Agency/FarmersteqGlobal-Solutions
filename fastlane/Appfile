@@ -1,0 +1,2 @@
+json_key_file("") # Production signing is deferred to Phase 2.
+package_name("com.farmsteq.global")

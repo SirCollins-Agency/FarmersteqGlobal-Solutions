@@ -1,0 +1,37 @@
+default_platform(:android)
+
+platform :android do
+  desc "Assemble the trial (debug-signed) APK"
+  lane :trial do
+    gradle(
+      task: "assembleDebug",
+      properties: { "skipNative" => "true" }
+    )
+  end
+
+  desc "Run host-side C++ core checks and Kotlin unit tests"
+  lane :verify do
+    sh "../scripts/test-cpp.sh"
+    gradle(
+      task: "testDebugUnitTest",
+      properties: { "skipNative" => "true" }
+    )
+  end
+
+  desc "Build and publish a GitHub Release (requires GH_TOKEN in environment)"
+  lane :release do |options|
+    tag = options[:tag] || ENV["RELEASE_TAG"]
+    UI.user_error!("Provide a tag: fastlane release tag:v0.0.1") unless tag
+
+    gradle(task: "assembleDebug", properties: { "skipNative" => "true" })
+    apk = "app/build/outputs/apk/debug/app-debug.apk"
+    artifact = "farmsteq-global-#{tag}.apk"
+    FileUtils.cp(apk, artifact)
+    sh "sha256sum #{artifact} > #{artifact}.sha256"
+
+    sh "gh release create #{tag} #{artifact} #{artifact}.sha256 " \
+       "--title 'Farmsteq Global #{tag}' " \
+       "--notes 'Native Android ALP trial build.' " \
+       "--repo SirCollins-Agency/FarmsteqGlobal-Solutions"
+  end
+end
