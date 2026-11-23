@@ -12,7 +12,7 @@ export function DownloadPage() {
         <Link to="/" className="back-link"><ArrowIcon width={16} height={16} style={{ transform: 'rotate(180deg)' }} /> Back to overview</Link>
 
         <div className="download-hero">
-          <span className="section-kicker">ANDROID · ORIGIN AGENT</span>
+          <span className="section-kicker">ANDROID · NATIVE APP</span>
           <h1>Download Farmsteq Global</h1>
           <p>
             Version {release.version} · {release.sizeLabel} · native APK

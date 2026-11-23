@@ -14,7 +14,7 @@ export function HomePage() {
         <div className="hero-orb hero-orb-two" />
         <div className="wrap hero-grid">
           <div className="hero-copy">
-            <span className="eyebrow"><span className="pulse" /> Origin Agent · {release.version} · Native Android</span>
+            <span className="eyebrow"><span className="pulse" /> {release.version} · Native Android</span>
             <h1>
               Farming, with a<br />
               <em>clearer next step.</em>
