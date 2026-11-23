@@ -9,7 +9,7 @@ During the brief, a **Cloudflare API token** and a **GitHub Personal Access Toke
 1. Revoke/rotate the pasted Cloudflare token and GitHub PAT in their respective dashboards.
 2. Create least-privilege replacements:
    - Cloudflare: Pages edit + Account read, scoped to the `farmersteq-pages` project where possible.
-   - GitHub: fine-grained PAT with Contents (read/write) and Releases (write) on `FarmsteqGlobal-Solutions` only.
+   - GitHub: fine-grained PAT with Contents (read/write) and Releases (write) on `FarmersteqGlobal-Solutions` only.
 3. Store replacements only in GitHub Actions secrets / a password manager. Never in source, docs, logs, screenshots or chat.
 4. If the exposed tokens appear anywhere in git history, rotate again and treat history as compromised.
 

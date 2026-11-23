@@ -58,7 +58,7 @@ export function DownloadPage() {
             <div className="checksum-note">
               <strong>Verify the artifact</strong>
               <p>SHA-256 checksums are attached to every GitHub Release alongside the APK.</p>
-              <a href={`https://github.com/${'SirCollins-Agency/FarmsteqGlobal-Solutions'}/releases/latest`}>
+              <a href={`https://github.com/${'SirCollins-Agency/FarmersteqGlobal-Solutions'}/releases/latest`}>
                 View all releases <ArrowIcon width={14} height={14} />
               </a>
             </div>

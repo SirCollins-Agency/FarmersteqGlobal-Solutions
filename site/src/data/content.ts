@@ -1,7 +1,7 @@
 export const SLOGAN =
   'Empowering Agricultural, Growing Business, Building Sustainable Future.'
 
-export const REPO = 'SirCollins-Agency/FarmsteqGlobal-Solutions'
+export const REPO = 'SirCollins-Agency/FarmersteqGlobal-Solutions'
 export const FALLBACK_VERSION = 'v0.0.1'
 export const FALLBACK_DOWNLOAD = `https://github.com/${REPO}/releases/latest/download/farmsteq-global-v0.0.1.apk`
 export const FACEBOOK = 'https://www.facebook.com/share/1CqqtKZKo9/'

@@ -32,6 +32,6 @@ platform :android do
     sh "gh release create #{tag} #{artifact} #{artifact}.sha256 " \
        "--title 'Farmsteq Global #{tag}' " \
        "--notes 'Native Android ALP trial build.' " \
-       "--repo SirCollins-Agency/FarmsteqGlobal-Solutions"
+       "--repo SirCollins-Agency/FarmersteqGlobal-Solutions"
   end
 end

@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FarmsteqGlobal-Solutions"
+rootProject.name = "FarmersteqGlobal-Solutions"
 include(":app")
